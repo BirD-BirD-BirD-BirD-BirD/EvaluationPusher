@@ -17,4 +17,4 @@ const evaluationPusher = new Pusher({
     useTLS: evaluationPusherConfig.useTLS,
 });
 
-module.exports = { trackingPusher,evaluationPusher };
+module.exports = { evaluationPusher };
